@@ -30,8 +30,8 @@ public class LibraryServiceNegativeTest {
         void removeNonExistingBook() {
             LibraryService libraryService = new LibraryService();
 
+            libraryService.addBook(new Book(1L, "Dune", "Frank Herbert"));
+
             assertDoesNotThrow(() -> libraryService.removeBook(99L));
         }
-    }
-
-
+}
