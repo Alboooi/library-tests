@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import it.fincons.Book;
-import it.fincons.LibraryService;
+import it.corso.Book;
+import it.corso.LibraryService;
 
 public class LibraryServiceNegativeTest {
         @Test
