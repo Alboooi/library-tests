@@ -28,7 +28,7 @@ public class LibraryServiceNegativeTest {
         }
 
         @Test
-        void removeNonExistingBookShouldReturnFalse() {
+        void removeNonExistingBookS() {
             LibraryService libraryService = new LibraryService();
 
             boolean result = libraryService.removeBook(99L);
